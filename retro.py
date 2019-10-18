@@ -2,7 +2,7 @@
 Routes and views for the flask application.
 """
 
-from Attendee_Predictor import app
+from retro_webapp import app
 from flask import request, render_template
 from decimal import Decimal
 import urllib2
